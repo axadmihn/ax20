@@ -1,0 +1,34 @@
+{
+  "about": {
+    "role": "Founder & Protocol Administrator at Axnmihn",
+    "summary": "Aris Eznmihn founded Axnmihn to translate methodological naturalism into real-world therapeutic decision systems. With experience across laboratory workflows, data architecture, and clinical interpretation, the protocol bridges cognitive modeling with patient-ready execution.",
+    "education": [
+      "AS \u2014 Bioinformatics & Biomathematics, Langara College",
+      "Computer Science coursework, MIT Open Learning"
+    ],
+    "focus": [
+      "Gene therapy and vector engineering",
+      "Decision support systems & protocol automation",
+      "Methodological naturalism applied to clinical practice"
+    ]
+  },
+  "skills": [
+    "Data Science",
+    "Python",
+    "Systems Thinking",
+    "Bioinformatics",
+    "Data Analysis",
+    "Research Strategy",
+    "Technical Writing",
+    "Gene Therapy",
+    "Clinical Decision Support Systems",
+    "AVD/consistency checks",
+    "Molecular Genetics",
+    "Methodological Naturalism"
+  ],
+  "contact": {
+    "email": "axadmihn@axnmihn.com",
+    "linkedin": "https://www.linkedin.com/in/axadmihn/",
+    "github": "https://github.com/axadmihn"
+  }
+}

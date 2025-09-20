@@ -1,0 +1,50 @@
+[
+  {
+    "slug": "methodological-naturalism-cognition",
+    "title": "Methodological Naturalism and the Structure of Cognition",
+    "summary": "A working paper connecting methodological naturalism with the architecture of inference maps used inside Axnmihn's decision support engines.",
+    "focus": "Cognitive protocol design",
+    "readTime": "12 minute read",
+    "body": [
+      "Methodological naturalism is treated as a practical constraint on how information is collected, validated, and recomposed for clinical use. Rather than an abstract philosophical stance, it provides the guardrails that keep cognitive models accountable to observable phenomena.",
+      "Axnmihn's protocol encodes these guardrails as \"consistency vectors\"—structured checkpoints that pair biological assays with Bayesian credibility scoring. Each vector embeds expectations for data provenance, instrumentation limits, and acceptable uncertainty bands.",
+      "By iterating these vectors through the protocol, cognition and structure collapse into the same object: a living map that ties bench workflows, computational analysis, and clinician feedback into a mutually verifiable loop."
+    ]
+  },
+  {
+    "slug": "criticism-traditional-morphology",
+    "title": "Criticism of Traditional Morphology",
+    "summary": "A critique of morphology frameworks that omit patient-specific dynamics, and a proposal for integrating temporal change into how we classify phenotypes.",
+    "focus": "Phenotype modeling",
+    "readTime": "9 minute read",
+    "body": [
+      "Classical morphology assumes static structures that can be categorized and compared independent of time. Clinical practice reveals the opposite: tissues and circuits change in ways that should alter the classification itself.",
+      "This note introduces \"dynamic morphology layers\"—a structured approach that keeps morphology fluid by combining imaging, omics, and clinical markers on shared timelines. The result is a representation that adapts to how a patient actually evolves under therapy.",
+      "Integrating these layers inside gene therapy design allows Axnmihn to forecast how AAV payloads interact with microenvironments, preserving precision while acknowledging constant motion."
+    ]
+  },
+  {
+    "slug": "consistency-vector-accountability",
+    "title": "Consistency Vector & Accountability",
+    "summary": "Explains how Axnmihn's accountability stack uses vectors of cross-checks to detect drift, bias, or breakpoints inside collaborative workflows.",
+    "focus": "Operational assurance",
+    "readTime": "8 minute read",
+    "body": [
+      "Each protocol stage exports a \"consistency vector\"—a compact signature of the assumptions, controls, and observed results. The signature travels with the project so collaborators can interrogate what was true when a decision was made.",
+      "Accountability comes from re-running these vectors as new evidence arrives. The system compares prior assumptions to fresh data and raises an alert when the two diverge beyond tolerance. That alert is tied to remediation playbooks, not blame.",
+      "Because the vectors are machine-readable, they integrate with laboratory instruments and analytics pipelines, forming a connective tissue between wet lab execution and computational oversight."
+    ]
+  },
+  {
+    "slug": "axnmihn-unified-interaction-prompt",
+    "title": "axₙmihn Unified Interaction Prompt v1.9.3",
+    "summary": "Documentation for the latest interaction prompt used to align AI copilots with Axnmihn's methodological naturalism and clinical objectives.",
+    "focus": "AI co-design",
+    "readTime": "7 minute read",
+    "body": [
+      "The unified interaction prompt is the bridge between Axnmihn investigators and generative AI partners. It encodes the voice, safety rails, and validation loops expected when synthesizing notes, drafting protocols, or triaging literature.",
+      "Version 1.9.3 introduces domain-specific fact checking, forcing the assistant to reference assay conditions, regulatory posture, and patient safeguards. Any response lacking that scaffolding is flagged for manual review.",
+      "This living document keeps human and machine collaborators synchronized so that speed never outpaces accountability."
+    ]
+  }
+]

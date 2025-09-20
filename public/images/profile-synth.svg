@@ -1,0 +1,22 @@
+<svg width="560" height="640" viewBox="0 0 560 640" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Geometric portrait of Aris">
+  <defs>
+    <linearGradient id="bg" x1="120" y1="60" x2="440" y2="520" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1abc9c"/>
+      <stop offset="1" stop-color="#6c5ce7"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(280 200) rotate(90) scale(240 200)">
+      <stop offset="0" stop-color="rgba(26,188,156,0.8)"/>
+      <stop offset="1" stop-color="rgba(12,23,42,0)"/>
+    </radialGradient>
+  </defs>
+  <rect x="40" y="40" width="480" height="560" rx="120" fill="rgba(10,25,48,0.85)" stroke="url(#bg)" stroke-width="4"/>
+  <ellipse cx="280" cy="240" rx="220" ry="180" fill="url(#halo)" opacity="0.6"/>
+  <path d="M280 140C236 140 200 176 200 220C200 266 240 292 260 312C272 324 272 344 272 356H288C288 344 288 324 300 312C320 292 360 266 360 220C360 176 324 140 280 140Z" fill="#1abc9c" fill-opacity="0.25" stroke="#1abc9c" stroke-width="4"/>
+  <path d="M236 420C236 382 264 354 302 354C340 354 368 382 368 420C368 462 332 500 280 500C228 500 192 462 192 420H236Z" fill="#6c5ce7" fill-opacity="0.2" stroke="#6c5ce7" stroke-width="4"/>
+  <circle cx="240" cy="236" r="22" fill="#E2E8F0"/>
+  <circle cx="320" cy="236" r="22" fill="#E2E8F0"/>
+  <circle cx="240" cy="236" r="12" fill="#0f172a"/>
+  <circle cx="320" cy="236" r="12" fill="#0f172a"/>
+  <path d="M224 292C244 308 264 316 280 316C296 316 316 308 336 292" stroke="#E2E8F0" stroke-width="6" stroke-linecap="round"/>
+  <path d="M232 356C250 372 264 378 280 378C296 378 310 372 328 356" stroke="#1abc9c" stroke-width="5" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,22 @@
+[
+  {
+    "title": "AAV as a gene therapy vector",
+    "summary": "How adeno-associated virus acts as a delivery vehicle for therapeutic payloads.",
+    "icon": "/icons/aav-vector.svg",
+    "points": [
+      "AAV is a small virus engineered to carry a custom DNA cassette into target cells without causing disease.",
+      "Capsid \"shells\" are selected to match tissues—liver, muscle, CNS—based on known biodistribution maps.",
+      "Once inside the cell, the cassette remains mostly episomal, producing the intended protein without integrating into the genome."
+    ]
+  },
+  {
+    "title": "Principles of gene therapy",
+    "summary": "The scaffold Axnmihn uses to decide when a gene therapy program is safe, precise, and accountable.",
+    "icon": "/icons/gene-therapy.svg",
+    "points": [
+      "Start with measurable disease markers, then design payloads that sense and respond to those signals.",
+      "Layer logic gates—AND, OR, NOT—to control when expression happens, adding safety in complex tissues.",
+      "Monitor with paired analytics so every dose feeds back into the decision support system for future iterations."
+    ]
+  }
+]
