@@ -1,0 +1,161 @@
+diff --git a/package.json b/package.json
+new file mode 100644
+index 0000000..f52e7d1
+--- /dev/null
++++ b/package.json
+@@
++{
+
+"name": "ax20",
+
+"version": "1.0.0",
+
+"private": true,
+
+"scripts": {
+
+"dev": "next dev",
+
+"build": "next build",
+
+"start": "next start",
+
+"lint": "next lint"
+
+},
+
+"dependencies": {
+
+"next": "14.2.3",
+
+"react": "^18.3.1",
+
+"react-dom": "^18.3.1"
+
+},
+
+"devDependencies": {
+
+"@types/node": "^20.12.7",
+
+"@types/react": "^18.3.1",
+
+"@types/react-dom": "^18.3.0",
+
+"autoprefixer": "^10.4.17",
+
+"eslint": "^8.57.0",
+
+"eslint-config-next": "14.2.3",
+
+"postcss": "^8.4.38",
+
+"tailwindcss": "^3.4.4",
+
+"typescript": "^5.4.5"
+
+}
++}
+diff --git a/next-env.d.ts b/next-env.d.ts
+new file mode 100644
+index 0000000..7b5a6c1
+--- /dev/null
++++ b/next-env.d.ts
+@@
++/// <reference types="next" />
++/// <reference types="next/image-types/global" />
++/// <reference types="next/navigation-types/compat/navigation" />
+
++// NOTE: This file should not be edited
+diff --git a/next.config.mjs b/next.config.mjs
+new file mode 100644
+index 0000000..1c3b4d5
+--- /dev/null
++++ b/next.config.mjs
+@@
++/** @type {import('next').NextConfig} */
++const nextConfig = {
+
+reactStrictMode: true,
++};
+
++export default nextConfig;
+diff --git a/tailwind.config.ts b/tailwind.config.ts
+new file mode 100644
+index 0000000..e6f4a0b
+--- /dev/null
++++ b/tailwind.config.ts
+@@
++import type { Config } from "tailwindcss";
++
++const config: Config = {
+
+content: [
+
+"./app/**/*.{js,ts,jsx,tsx,mdx}",
+
+"./components/**/*.{js,ts,jsx,tsx,mdx}",
+
+],
+
+theme: {
+
+extend: {},
+
+},
+
+plugins: [],
++};
+
++export default config;
+diff --git a/tsconfig.json b/tsconfig.json
+new file mode 100644
+index 0000000..d5e7c2f
+--- /dev/null
++++ b/tsconfig.json
+@@
++{
+
+"compilerOptions": {
+
+"target": "es5",
+
+"lib": ["dom", "dom.iterable", "esnext"],
+
+"allowJs": true,
+
+"skipLibCheck": true,
+
+"strict": false,
+
+"forceConsistentCasingInFileNames": true,
+
+"noEmit": true,
+
+"esModuleInterop": true,
+
+"module": "esnext",
+
+"moduleResolution": "bundler",
+
+"resolveJsonModule": true,
+
+"isolatedModules": true,
+
+"jsx": "preserve",
+
+"incremental": true,
+
+"plugins": [
+
+ {
+   "name": "next"
+ }
+]
+
+},
+
+"include": ["next-env.d.ts", "/*.ts", "/.tsx", ".next/types/**/.ts"],
+
+"exclude": ["node_modules"]
++}
