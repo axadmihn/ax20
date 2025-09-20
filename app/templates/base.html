@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ settings.PROJECT_NAME }} — AAV Gene Therapy</title>
+<meta name="description" content="Axnmihn specializes in adeno-associated virus (AAV) gene therapy and offers personalized methods for genetic diseases through laboratory services.">
+<link rel="stylesheet" href="{{ url_for('static', path='css/styles.css') }}">
+</head><body>
+<header class="nav">
+    <div class="container nav-inner">
+      <a href="#home" class="brand" aria-label="Home">
+        <div class="logo-badge">ax</div>
+        <span>Axnmihn</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#technology">Technology</a>
+        <a href="#services">Services</a>
+        <a href="#pipeline">Pipeline</a>
+        <a href="#about">About</a>
+        <a href="#resources">Resources</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="nav-cta">
+        <a class="btn" href="mailto:axadmihn@axnmihn.com">Email</a>
+        <a class="btn primary" href="#contact">Get started</a>
+      </div>
+    </div>
+  </header>
+<main id="home">{% block content %}{% endblock %}</main>
+<footer class="footer">
+    <div class="container" style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px;">
+      <div class="brand">
+        <div class="logo-badge">ax</div>
+        <span>Axnmihn</span>
+      </div>
+      <div class="muted">© 2025 Axnmihn. All rights reserved.</div>
+    </div>
+  </footer>
+<script>(function(){const p=new URLSearchParams(location.search);if(p.get('sent')==='1'){alert('Thanks — your message was received.');history.replaceState(null,'',location.pathname);}})();</script>
+</body></html>
