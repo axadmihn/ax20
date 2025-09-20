@@ -104,7 +104,7 @@
         </div>
         <div class="card">
           <strong>Send a message</strong>
-          <form action="mailto:axadmihn@axnmihn.com" method="post" enctype="text/plain" style="display:grid; gap:10px; margin-top:8px;">
+          <form action="{{ request.url_for('contact_post') }}" method="post" style="display:grid; gap:10px; margin-top:8px;">
             <input name="Name" placeholder="Name" style="padding:10px;border:1px solid #e5e7eb;border-radius:10px;">
             <input name="Email" type="email" placeholder="Email" style="padding:10px;border:1px solid #e5e7eb;border-radius:10px;">
             <textarea name="Message" placeholder="Message" rows="4" style="padding:10px;border:1px solid #e5e7eb;border-radius:10px;"></textarea>
